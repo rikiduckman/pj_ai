@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator and Weight Classification</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="home-container">
+    <div class="container mt-5">
+        <h2 class="mb-4">BMI Calculator and Weight Classification :</h2>
+        <form action="/calculate_bmi" method="post">
+            <div class="form-group">
+                <label for="height">Height (cm):</label>
+                <input type="number" class="form-control" id="height" name="height" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" class="form-control" id="weight" name="weight" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calculate BMI</button>
+        </form>
+    </div>
+    </div>
+    <!-- Bootstrap JS and dependencies (if needed) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
